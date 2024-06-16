@@ -12,12 +12,11 @@ namespace Request_accepting
     internal class Program
     {
         #region Variables
-        private const string Token = "7297071183:AAEpIv51byTBNWcGELQmu0e4ZrwBSFwbAYw";
-        private const long ChatId = -1002008368194;
+        private const string Token = "";
         private const string msg = "";
         private const string stepBack = "..//..//..//";
         private const string connectionString = $"Data Source={stepBack}Users_db.db";
-        private readonly static List<long> adminId = new List<long>() { 948468834, 6805337669 };
+        private readonly static List<long> adminId = new List<long>() {  };
 
         private static ITelegramBotClient _botClient;
         private static ReceiverOptions _receiverOptions;
